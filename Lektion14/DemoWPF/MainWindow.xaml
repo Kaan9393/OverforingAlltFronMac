@@ -1,0 +1,30 @@
+﻿<Window x:Class="DemoWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="550" Width="800">
+    <Grid x:Name="myWindow" Margin="0,0,0,-6">
+        <CheckBox x:Name="darkMode" Content="Dark mode" HorizontalAlignment="Left" Height="50" Margin="50,27,0,0" VerticalAlignment="Top" Width="176" FontSize="18" Click="darkMode_Clicked" Checked="darkMode_Checked" />
+        <Rectangle x:Name="myRectangle" HorizontalAlignment="Left" Height="103" Margin="50,82,0,0" Stroke="Black" VerticalAlignment="Top" Width="337"/>
+        <Button Content="Mindre" HorizontalAlignment="Left" Height="35" Margin="64,229,0,0" VerticalAlignment="Top" Width="133" FontSize="18"/>
+        <Button Content="Större" HorizontalAlignment="Left" Height="35" Margin="249,229,0,0" VerticalAlignment="Top" Width="129" FontSize="18"/>
+        <Slider x:Name="mySlider" HorizontalAlignment="Left" Height="39" Margin="90,301,0,0" VerticalAlignment="Top" Width="210" RenderTransformOrigin="0.5,0.5" ValueChanged="Slider_Valuechanged" Maximum="150">
+            <Slider.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="0"/>
+                </TransformGroup>
+            </Slider.RenderTransform>
+        </Slider>
+        <DatePicker x:Name="dateSelect" HorizontalAlignment="Left" Height="34" Margin="64,340,0,0" VerticalAlignment="Top" Width="336" SelectedDateChanged="CalculateDateDiff_SelectedDateChanged"/>
+        <TextBox x:Name="christmasInfo" HorizontalAlignment="Left" Height="36" Margin="64,401,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="297" FontSize="16"/>
+        <Canvas x:Name="myCanvas" HorizontalAlignment="Left" Height="274" Margin="500,100,0,0" VerticalAlignment="Top" Width="263"/>
+        <Button Content="Hitta textbox 3" HorizontalAlignment="Left" Height="44" Margin="559,410,0,0" VerticalAlignment="Top" Width="123" Click="Button_Click"/>
+
+    </Grid>
+</Window>

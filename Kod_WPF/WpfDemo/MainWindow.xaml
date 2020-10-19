@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="MyWindow" Background="White" Margin="0,0,0,-77">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="267*"/>
+            <ColumnDefinition Width="133*"/>
+        </Grid.ColumnDefinitions>
+        <CheckBox x:Name="NightSwitch" Content="Night light" HorizontalAlignment="Left" Height="17" Margin="39,30,0,0" VerticalAlignment="Top" Width="305" Foreground="Black" Click="Checkbox_Clicked"/>
+        <Rectangle x:Name="MyRectangle" HorizontalAlignment="Left" Height="151" Margin="39,57,0,0" Stroke="Black" VerticalAlignment="Top" Width="281"/>
+        <Button Content="Bigger" HorizontalAlignment="Center" Height="33" Margin="0,227,0,0" VerticalAlignment="Top" Width="108" Click="Button_Click" IsCancel="True"/>
+        <Button Content="Smaller" HorizontalAlignment="Left" Height="33" Margin="39,227,0,0" VerticalAlignment="Top" Width="107" Click="Button_Click_1"/>
+        <DatePicker x:Name="DateSelect" HorizontalAlignment="Left" Height="25" Margin="39,304,0,0" VerticalAlignment="Top" Width="247" FirstDayOfWeek="Monday" SelectedDateChanged="CalculateDateDiff"/>
+        <TextBox x:Name="christmasInfo" HorizontalAlignment="Left" Height="28" Margin="39,365,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="247"/>
+        <Canvas x:Name="myCanvas" HorizontalAlignment="Left" Height="336" Margin="400,57,0,0" VerticalAlignment="Top" Width="375" Grid.ColumnSpan="2"/>
+        <Slider x:Name="mySlider" HorizontalAlignment="Left" Margin="39,277,0,0" VerticalAlignment="Top" Width="120" ValueChanged="Slider_ValueChanged" Maximum="100"/>
+
+    </Grid>
+</Window>
