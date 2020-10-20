@@ -12,8 +12,16 @@ namespace LinqExercise
             //Det ovan går också att skriva men då måste man göra en List<Person> i Person classen.
             List<Person> person = new List<Person>();
             Person.AddPersonsToList(person);
-
+            
             Console.WriteLine("2.A -------------------------------------------");
+
+            //NamesThatStartsWith("And", person); ///HÅKANS KOD --- Q1 
+            //NameDayAt(new DateTime(2020, 7, 23), person); /// ---- Q2
+            //MatchingNames(person); 
+            //MatchingNameDay(person);
+            
+
+
 
             var q1 = person
                 .Where(p => p.Name.ToLower().StartsWith("and"));
@@ -123,6 +131,64 @@ namespace LinqExercise
             foreach (var item in q9)
             {
                 Console.WriteLine($"År: {item.Key}\tAntal: {item.Count()}");
+            }
+        }
+
+        
+        
+
+        private static void MatchingNameDay(List<Person> person)
+        {
+            Console.Write("Mata in datum (MMDD): ");
+            string input = Console.ReadLine();
+            int month = int.Parse(input.Substring(0, 2));       //gör så att vi får ut månaden genom 2 täcken.
+            int day = int.Parse(input.Substring(2, 2));         //Samma sak här, 2 täcken. 
+
+            var resultSet = person
+                .Where(p => p.NameDay.Month == month && p.NameDay.Day == day)
+                .Select(p => $"{p.Name} {p.NameDay}");
+
+            foreach (var item in resultSet)
+            {
+                Console.WriteLine(item);
+            }
+        }
+        private static void MatchingNames(List<Person> person)
+        {
+            Console.WriteLine("Mata in ett namn eller en del av ett namn: ");
+            string input = Console.ReadLine();
+
+            var resultSet = person
+                .Where(p => p.Name.ToLower().Contains(input.ToLower()))
+                .Select(p => p.Name);
+
+            foreach (var item in resultSet)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
+        private static void NameDayAt(DateTime dateTime, List<Person> person) /// Q2
+        {
+            var q2 = person
+                .Where(p => p.NameDay.Month == dateTime.Month && p.NameDay.Day == dateTime.Day)
+                .Select(p => $"{p.Name} {p.NameDay}");
+                //Eller så tar man bort .Select och lägger in koden bredvid i Console writeline.
+            foreach (var item in q2)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
+        private static void NamesThatStartsWith(string startWith, List<Person> person) ///Q1
+        {
+            var q1 = person
+                .Where(p => p.Name.StartsWith(startWith))
+                .Select(p => p.NameDay);
+
+            foreach (var item in q1)
+            {
+                Console.WriteLine(item);
             }
         }
     }
