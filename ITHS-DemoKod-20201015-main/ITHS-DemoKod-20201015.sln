@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQ_Demo", "LINQ_Demo\LINQ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnonymousDelegateDemo", "AnonymousDelegateDemo\AnonymousDelegateDemo.csproj", "{DCA07FB0-241A-4D4F-AD12-61389240B750}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariablesAndParameters", "VariablesAndParameters\VariablesAndParameters.csproj", "{BAA92A43-FB83-4537-848B-E8B0C1B9CA61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VariablesAndParameters", "VariablesAndParameters\VariablesAndParameters.csproj", "{BAA92A43-FB83-4537-848B-E8B0C1B9CA61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQÖvn4", "LINQÖvn4\LINQÖvn4.csproj", "{7EF63B93-3677-42CE-8568-7B1273313BF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQÖvn4", "LINQÖvn4\LINQÖvn4.csproj", "{7EF63B93-3677-42CE-8568-7B1273313BF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod_CodeAlong", "ExtensionMethod_CodeAlong\ExtensionMethod_CodeAlong.csproj", "{477C291F-5821-4B5C-B81A-F70F4D953677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics_CodeAlong", "Generics_CodeAlong\Generics_CodeAlong.csproj", "{7D2DE32F-C910-476B-9EF9-089FF7C38A2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{7EF63B93-3677-42CE-8568-7B1273313BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EF63B93-3677-42CE-8568-7B1273313BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EF63B93-3677-42CE-8568-7B1273313BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{477C291F-5821-4B5C-B81A-F70F4D953677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477C291F-5821-4B5C-B81A-F70F4D953677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477C291F-5821-4B5C-B81A-F70F4D953677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477C291F-5821-4B5C-B81A-F70F4D953677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D2DE32F-C910-476B-9EF9-089FF7C38A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2DE32F-C910-476B-9EF9-089FF7C38A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2DE32F-C910-476B-9EF9-089FF7C38A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2DE32F-C910-476B-9EF9-089FF7C38A2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
