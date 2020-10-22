@@ -1,0 +1,13 @@
+C:\Users\KaanWin\source\repos\OverforingAlltFronMac\LinqÖvning\LinqExercise\bin\Debug\netcoreapp3.1\LinqExercise.exe
+C:\Users\KaanWin\source\repos\OverforingAlltFronMac\LinqÖvning\LinqExercise\bin\Debug\netcoreapp3.1\LinqExercise.deps.json
+C:\Users\KaanWin\source\repos\OverforingAlltFronMac\LinqÖvning\LinqExercise\bin\Debug\netcoreapp3.1\LinqExercise.runtimeconfig.json
+C:\Users\KaanWin\source\repos\OverforingAlltFronMac\LinqÖvning\LinqExercise\bin\Debug\netcoreapp3.1\LinqExercise.runtimeconfig.dev.json
+C:\Users\KaanWin\source\repos\OverforingAlltFronMac\LinqÖvning\LinqExercise\bin\Debug\netcoreapp3.1\LinqExercise.dll
+C:\Users\KaanWin\source\repos\OverforingAlltFronMac\LinqÖvning\LinqExercise\bin\Debug\netcoreapp3.1\LinqExercise.pdb
+C:\Users\KaanWin\source\repos\OverforingAlltFronMac\LinqÖvning\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.csprojAssemblyReference.cache
+C:\Users\KaanWin\source\repos\OverforingAlltFronMac\LinqÖvning\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.AssemblyInfoInputs.cache
+C:\Users\KaanWin\source\repos\OverforingAlltFronMac\LinqÖvning\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.AssemblyInfo.cs
+C:\Users\KaanWin\source\repos\OverforingAlltFronMac\LinqÖvning\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.csproj.CoreCompileInputs.cache
+C:\Users\KaanWin\source\repos\OverforingAlltFronMac\LinqÖvning\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.dll
+C:\Users\KaanWin\source\repos\OverforingAlltFronMac\LinqÖvning\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.pdb
+C:\Users\KaanWin\source\repos\OverforingAlltFronMac\LinqÖvning\LinqExercise\obj\Debug\netcoreapp3.1\LinqExercise.genruntimeconfig.cache
