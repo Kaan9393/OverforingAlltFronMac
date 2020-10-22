@@ -10,7 +10,7 @@ namespace LinqExercise
         public DateTime NameDay { get; set; }
         public static void AddPersonsToList(List<Person> persons)
         {
-            const string filePath = @"C:\Users\KaanWindows\source\repos\LinqÖvning\LinqExercise\bin\Debug\netcoreapp3.1\names.csv";
+            const string filePath = @"C:\Users\KaanWin\source\repos\OverforingAlltFronMac\LinqÖvning\LinqExercise\bin\Debug\netcoreapp3.1\names.csv";
             //const string filePath = @"C:\Data\C#\Academy\2018\HT\Patriks övningar\Övning_24_LINQ\Övning_24_LINQ\names.csv";
             
 
